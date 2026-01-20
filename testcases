@@ -1,0 +1,133 @@
+STUDENT GRADE CALCULATOR – TEST CASES
+===================================
+
+TEST CASE 1: Valid Input – Grade A
+---------------------------------
+Input:
+Student Name: Priya
+Marks: 95
+
+Expected Output:
+Marks: 95/100
+Grade: A
+Message: Excellent work! Outstanding performance!
+
+---------------------------------
+
+TEST CASE 2: Valid Input – Grade B
+---------------------------------
+Input:
+Student Name: Rahul
+Marks: 85
+
+Expected Output:
+Marks: 85/100
+Grade: B
+Message: Very Good! Keep it up!
+
+---------------------------------
+
+TEST CASE 3: Valid Input – Grade C
+---------------------------------
+Input:
+Student Name: Anu
+Marks: 72
+
+Expected Output:
+Marks: 72/100
+Grade: C
+Message: Good effort! You can do even better!
+
+---------------------------------
+
+TEST CASE 4: Valid Input – Grade D
+---------------------------------
+Input:
+Student Name: Karthik
+Marks: 65
+
+Expected Output:
+Marks: 65/100
+Grade: D
+Message: Fair performance. Work harder next time!
+
+---------------------------------
+
+TEST CASE 5: Valid Input – Grade F
+---------------------------------
+Input:
+Student Name: Meena
+Marks: 45
+
+Expected Output:
+Marks: 45/100
+Grade: F
+Message: Don't give up! Learn from mistakes and try again!
+
+---------------------------------
+
+TEST CASE 6: Boundary Value – Minimum Marks
+------------------------------------------
+Input:
+Student Name: Arjun
+Marks: 0
+
+Expected Output:
+Marks: 0/100
+Grade: F
+Message: Don't give up! Learn from mistakes and try again!
+
+---------------------------------
+
+TEST CASE 7: Boundary Value – Maximum Marks
+------------------------------------------
+Input:
+Student Name: Sneha
+Marks: 100
+
+Expected Output:
+Marks: 100/100
+Grade: A
+Message: Excellent work! Outstanding performance!
+
+---------------------------------
+
+TEST CASE 8: Invalid Input – Negative Marks
+------------------------------------------
+Input:
+Student Name: Ramesh
+Marks: -10
+
+Expected Output:
+Error message displayed:
+"Invalid input! Marks must be between 0 and 100."
+User is asked to re-enter marks.
+
+---------------------------------
+
+TEST CASE 9: Invalid Input – Marks Above 100
+-------------------------------------------
+Input:
+Student Name: Kavya
+Marks: 150
+
+Expected Output:
+Error message displayed:
+"Invalid input! Marks must be between 0 and 100."
+User is asked to re-enter marks.
+
+---------------------------------
+
+TEST CASE 10: Invalid Input – Non-numeric Value
+----------------------------------------------
+Input:
+Student Name: Deepak
+Marks: abc
+
+Expected Output:
+Error message displayed:
+"Please enter a valid integer value."
+User is asked to re-enter marks.
+
+===================================
+END OF TEST CASES
