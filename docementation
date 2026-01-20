@@ -1,0 +1,251 @@
+STUDENT GRADE CALCULATOR
+
+1. Introduction
+
+The Student Grade Calculator is a Python-based console application developed to calculate student grades based on marks obtained. The program accepts student details, validates user input, determines grades using conditional logic, and displays encouraging feedback. This project is designed to strengthen understanding of core Python concepts such as functions, conditional statements, loops, and error handling.
+
+
+---
+
+2. Project Objectives
+
+The main objectives of this project are:
+
+To accept student name and marks as input
+
+To validate marks entered by the user (0–100 only)
+
+To calculate grades using if-elif-else conditions
+
+To display motivating messages for each grade
+
+To implement modular programming using functions
+
+To follow professional coding and documentation standards
+
+
+
+---
+
+3. Tools and Technologies Used
+
+Programming Language: Python 3.x
+
+Platform: Console / Terminal
+
+Development Environment: Any Python-supported IDE or command line
+
+External Libraries: None
+
+
+
+---
+
+4. Project Structure
+
+The project follows a well-organized directory structure:
+
+grade_calculator.py – Main Python program file
+
+README.md – Project overview and setup instructions
+
+test_cases.txt – Contains test cases and expected outputs
+
+screenshots/ – Stores screenshots of program execution
+
+
+This structure ensures easy navigation and maintainability.
+
+
+---
+
+5. Grading Logic
+
+The grading system is designed based on the following rules:
+
+Marks Range	Grade
+
+90 – 100	A
+80 – 89	B
+70 – 79	C
+60 – 69	D
+0 – 59	F
+
+
+Each grade is associated with an encouraging message to motivate students.
+
+
+---
+
+6. Program Description
+
+6.1 Input Module
+
+The program first asks the user to enter the student name and marks. Marks input is validated using a while loop to ensure only values between 0 and 100 are accepted.
+
+6.2 Validation Logic
+
+Input validation is handled using:
+
+while loop to repeat input until valid
+
+try-except block to catch non-numeric values
+
+
+This prevents the program from crashing due to invalid input.
+
+6.3 Grade Calculation Module
+
+The grade is calculated using if-elif-else statements based on the marks entered. Each condition returns a grade and a corresponding motivational message.
+
+6.4 Output Module
+
+The final output displays:
+
+Student name
+
+Marks obtained
+
+Grade
+
+Encouraging message
+
+
+
+---
+
+7. Functions Used
+
+get_valid_marks()
+
+Accepts marks input
+
+Ensures marks are within 0–100
+
+Repeats input for invalid values
+
+
+calculate_grade(marks)
+
+Determines grade based on marks
+
+Returns grade and message
+
+
+main()
+
+Controls overall program execution
+
+Calls validation and grading functions
+
+Displays final output
+
+
+
+---
+
+8. Algorithms Used
+
+Algorithm for Grade Calculation
+
+1. Start program
+
+
+2. Read student name
+
+
+3. Read marks
+
+
+4. If marks < 0 or > 100, ask again
+
+
+5. If marks >= 90, assign grade A
+
+
+6. Else if marks >= 80, assign grade B
+
+
+7. Else if marks >= 70, assign grade C
+
+
+8. Else if marks >= 60, assign grade D
+
+
+9. Else assign grade F
+
+
+10. Display result
+
+
+11. End program
+
+
+
+
+---
+
+9. Testing and Validation
+
+Testing was conducted using various inputs including:
+
+Valid inputs
+
+Boundary values (0 and 100)
+
+Invalid inputs (negative, above 100, non-numeric)
+
+
+All test cases and expected outputs are documented in the test_cases.txt file.
+
+
+---
+
+10. Screenshots
+
+Screenshots are included in the screenshots folder demonstrating:
+
+Program execution
+
+Invalid input handling
+
+Final output display
+
+
+These screenshots serve as visual proof of functionality.
+
+
+---
+
+11. Limitations
+
+Supports only one student at a time
+
+Console-based interface only
+
+No data storage or file handling
+
+
+
+---
+
+12. Future Enhancements
+
+Support for multiple students
+
+Store results in files or databases
+
+Add graphical user interface (GUI)
+
+Generate reports automatically
+
+
+
+---
+
+13. Conclusion
+
+The Student Grade Calculator project successfully implements core Python programming concepts with proper validation, grading logic, and documentation. The project meets all academic requirements and demonstrates good coding practices suitable for beginner-level software development.
+
+
+---
